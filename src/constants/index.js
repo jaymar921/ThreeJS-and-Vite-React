@@ -83,9 +83,60 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl:
+      "https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png",
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
     imageUrl: typescript,
     name: "TypeScript",
     type: "Frontend",
+  },
+  {
+    imageUrl: "https://wpguru.co.uk/wp-content/uploads/2020/04/dotnet-logo.png",
+    name: ".NET",
+    type: "Framework",
+  },
+  {
+    imageUrl: "https://komorinfo.com/blog/cast-of-smart-pointers/feature.png",
+    name: "C#",
+    type: "Backend",
+  },
+  {
+    imageUrl:
+      "https://cdn-images-1.medium.com/max/1200/1*M7czUa8kD4sY6IATtiXGuw.png",
+    name: "gRPC",
+    type: "MessageBus",
+  },
+  {
+    imageUrl:
+      "https://th.bing.com/th/id/OIP.xT82C8aQ9vnAyGbemBkCcgHaH1?rs=1&pid=ImgDetMain",
+    name: "RabbitMq",
+    type: "MessageBus",
+  },
+  {
+    imageUrl:
+      "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
+    name: "Python",
+    type: "Backend",
+  },
+  {
+    imageUrl: "https://flask-training-courses.uk/images/flask-logo.png",
+    name: "Flask",
+    type: "Framework",
+  },
+  {
+    imageUrl:
+      "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png",
+    name: "Docker",
+    type: "DevOps",
+  },
+  {
+    imageUrl:
+      "https://www.vaisulweb.com/wp-content/uploads/2019/02/azure_logo_794_new.png",
+    name: "Azure",
+    type: "DevOps",
   },
 ];
 
@@ -123,6 +174,17 @@ export const experiences = [
     points: [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "Game Developer | Freelance",
+    company_name: "SpigotMC.org",
+    icon: "https://static.spigotmc.org/img/spigot.png",
+    iconBg: "#BDFFD1",
+    date: "Sep 10, 2020 - present",
+    points: [
+      "Experienced building awesome game plugin specific for Minecraft Servers.",
+      "Enhanced game development experience.",
     ],
   },
 ];
