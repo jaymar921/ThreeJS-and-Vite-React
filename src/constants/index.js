@@ -173,6 +173,14 @@ export const projects = [
     link: null,
   },
   {
+    iconUrl: "https://avatars.githubusercontent.com/u/148028870?s=48&v=4",
+    theme: "btn-back-green",
+    name: "Event Registration",
+    description:
+      "The Registration System streamlines event management with QR code-based registration, real-time analytics, and automated notifications, ensuring seamless attendee experiences and efficient operations. Its versatility extends to various company events, while features like name randomizers for raffles add engagement and excitement.",
+    link: null,
+  },
+  {
     iconUrl:
       "https://jaymar921.github.io/jayharronabejar/assets/images/ce3.png",
     theme: "btn-back bg-purple-300",
