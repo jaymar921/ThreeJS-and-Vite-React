@@ -180,7 +180,7 @@ export const experiences = [
     title: "Game Developer | Freelance",
     company_name: "SpigotMC.org",
     icon: "https://static.spigotmc.org/img/spigot.png",
-    iconBg: "#BDFFD1",
+    iconBg: "#FFD3BB",
     date: "Sep 10, 2020 - present",
     points: [
       "Experienced building awesome game plugin specific for Minecraft Servers.",
