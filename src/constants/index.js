@@ -1,0 +1,224 @@
+import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {
+  car,
+  contact,
+  css,
+  estate,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  pricewise,
+  react,
+  redux,
+  sass,
+  snapgram,
+  summiz,
+  tailwindcss,
+  threads,
+  typescript,
+} from "../assets/icons";
+
+export const skills = [
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+];
+
+export const experiences = [
+  {
+    title: "Software Developer",
+    company_name: "FullScale",
+    icon: "https://jaymar921.github.io/jayharronabejar/assets/images/fullScale.png",
+    iconBg: "#BDFFD1",
+    date: "May 22, 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using .NET, React.js, NextJS and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "FullStack Developer",
+    company_name: "PSITS UC MAIN",
+    icon: "https://jaymar921.github.io/jayharronabejar/assets/images/PSITS_LOGO.png",
+    iconBg: "#4CA0C2",
+    date: "Sep 12, 2022 - May 22, 2023",
+    points: [
+      "Built and maintained the organization's website using Flask Microframework",
+      "Experienced working on a Point of Sale Application",
+    ],
+  },
+  {
+    title: "Developer Intern",
+    company_name: "FullScale",
+    icon: "https://jaymar921.github.io/jayharronabejar/assets/images/fullScale.png",
+    iconBg: "#BDFFD1",
+    date: "Sep 6, 2022 - Jan 16, 2023",
+    points: [
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+];
+
+export const socialLinks = [
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/YourGitHubUsername",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+  },
+];
+
+export const projects = [
+  {
+    iconUrl:
+      "https://jaymar921.github.io/jayharronabejar/assets/images/PSITS_LOGO.png",
+    theme: "btn-back-blue",
+    name: "PSITS Website",
+    description:
+      "PSITS web application allows PSITS officers to manage announcements, selling tickets/t-shirts, and create events! UC Main CCS students can create an account for reservation/order of event merch purpose. ",
+    link: "https://github.com/PSITS-UC-MAIN/PSITS-WEB",
+  },
+  {
+    iconUrl:
+      "https://jaymar921.github.io/jayharronabejar/assets/images/ayus%20icon.png",
+    theme: "btn-back-blue",
+    name: "AYUS - Mobile App for vehicle assistance (Capstone)",
+    description:
+      "The task of helping drivers whose cars break down on the road can be difficult for service providers, especially when there are no other vehicles around.",
+    link: "https://github.com/jaymar921/AYUS-WebASP",
+  },
+  {
+    iconUrl: "https://avatars.githubusercontent.com/u/148028870?s=48&v=4",
+    theme: "btn-back-green",
+    name: "QuizMaster",
+    description:
+      "To ignite the spirit of friendly competition, knowledge exploration, and personal growth through the Quiz Bee Competition Web and Mobile Application, creating a community of lifelong learners and champions.",
+    link: null,
+  },
+  {
+    iconUrl:
+      "https://jaymar921.github.io/jayharronabejar/assets/images/ce3.png",
+    theme: "btn-back bg-purple-300",
+    name: "Custom Enchantments 3",
+    description:
+      "The plugin is so called an advanced because it has a built in Custom Enchantments, Skilling System, Player Classifications, CE Currencies/Quests and an RPG feels in the game.",
+    link: "https://www.spigotmc.org/resources/%E2%9C%AF-custom-enchantments-3-rpg-%E2%9C%AF-1-16-1-20-all-in-one-pugin.102275/",
+  },
+  // {
+  //   iconUrl: threads,
+  //   theme: "btn-back-green",
+  //   name: "Full Stack Threads Clone",
+  //   description:
+  //     'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+  //   link: "https://github.com/adrianhajdin/threads",
+  // },
+  // {
+  //   iconUrl: car,
+  //   theme: "btn-back-blue",
+  //   name: "Car Finding App",
+  //   description:
+  //     "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+  //   link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+  // },
+  // {
+  //   iconUrl: snapgram,
+  //   theme: "btn-back-pink",
+  //   name: "Full Stack Instagram Clone",
+  //   description:
+  //     "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+  //   link: "https://github.com/adrianhajdin/social_media_app",
+  // },
+  // {
+  //   iconUrl: estate,
+  //   theme: "btn-back-black",
+  //   name: "Real-Estate Application",
+  //   description:
+  //     "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+  //   link: "https://github.com/adrianhajdin/projects_realestate",
+  // },
+  // {
+  //   iconUrl: summiz,
+  //   theme: "btn-back-yellow",
+  //   name: "AI Summarizer Application",
+  //   description:
+  //     "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+  //   link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  // },
+];
